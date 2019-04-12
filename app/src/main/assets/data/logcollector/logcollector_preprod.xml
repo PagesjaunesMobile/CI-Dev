@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<resStats>
+	<logcollector url="https://www.cd.pagesjaunes.fr/stat/statDispatcher" env="preprod" pdm="8.9-2" version="201710181610">	
+	<tag key="favoris"
+     desc="Ajout ou Suppression d’un favori"
+	 release="8.9-2"
+     data="#HORODATE#|#CLIENT_ID#|#CLIENT_TYPE#|#VERSION#|?PARTENAIRE_ID?|?OPERATEUR_ID?|#VISITOR_ID#|?VERSION_OS?|?TYPE_OS?|?NAVIGATEUR?|?SESSION_ID?|#DATE#|#CODE_ETAB#|#TYPE_CLIC#|?CODE_AN9?|#SOURCE#"/>
+		</logcollector>
+	</resStats>

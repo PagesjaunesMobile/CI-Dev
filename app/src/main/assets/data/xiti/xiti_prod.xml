@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resStats>
+	<at version="201903291136" env="prod" pdm="9.8" xtsite="" secure="true" logDomain="at.pagesjaunes.fr" log="logc259" logSSL="logs1257" >
+		<tag key="appli_start" tag_type="PAGE" s2="1" p="APPLI::START" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" xto="#EXT_SOURCE#" />
+		<tag key="hp_d" tag_type="PAGE" s2="2" p="HOMEPAGE::HOME" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x10="#HISTO_RECHERCHERCHE#_#XY_PERSO_GEOLOC#_#XY_PUB_GEOLOC#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="searchengine_d" tag_type="PAGE" s2="2" p="HOMEPAGE::FORM_#RECH_TYPE_TXT#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="histo_d" tag_type="PAGE" s2="#RECH_TYPE#" p="HISTORIQUE::HISTORIQUE" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="histo_search_d" tag_type="PAGE" s2="2" p="HISTORIQUE::HISTORIQUE_RECHERCHE" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="histo_result_d" tag_type="PAGE" s2="#RECH_TYPE#" p="HISTORIQUE::HISTORIQUE_RESULTAT" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="searchengine_whatwhoamb_d" tag_type="PAGE" s2="#RECH_TYPE#" p="SELECT::AMB::QUOI" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="searchengine_whereamb_d" tag_type="PAGE" s2="#RECH_TYPE#" p="SELECT::AMB::OU" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="lr_d" tag_type="PAGE" s2="#RECH_TYPE#" p="REP::LR::LR_#TYPE_LR#" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x10="#HISTO_RECHERCHERCHE#_#XY_PERSO_GEOLOC#_#XY_PUB_GEOLOC#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="lr_transac_d" tag_type="PAGE" s2="3" p="REP::LR::TRANSAC_RESTO::LR_#TYPE_LR#" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="noanswer_d" tag_type="PAGE" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::PDR_#PDR_TYPE#" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="popup_call_d" tag_type="PAGE" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::CLIC_CALL" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_d" tag_type="PAGE" s2="#RECH_TYPE#" p="REP::FD::#TRANSAC_TYPE#::FD_#TYPE_FD#" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x10="#HISTO_RECHERCHERCHE#_#XY_PERSO_GEOLOC#_#XY_PUB_GEOLOC#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" fx="f4=#COD_ETAB#" />
+		<tag key="fd_transac_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_RESTO::FD_#TYPE_FD#" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_review_d" tag_type="PAGE" s2="3" p="REP::FD::FD_AVIS" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_viewer_photo_d" tag_type="PAGE" s2="3" p="REP::FD::RICHMEDIA::RICH_PHOTO_#PHOTO_TYPE#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_viewer_video_d" tag_type="PAGE" s2="3" p="REP::FD::RICHMEDIA::RICH_VIDEO_#VIDEO_TYPE#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_cgu_reporting_d" tag_type="PAGE" s2="3" p="REP::FD::SIGNAL_ABUS_PHOTO" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_pvi_d" tag_type="PAGE" s2="3" p="REP::FD::PVI" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_website_d" tag_type="PAGE" s2="3" p="REP::FD::SITE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_gooddeal_d" tag_type="PAGE" s2="3" p="REP::FD::BONPLAN::FD_BONPLAN" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="snj_contact_form_d" tag_type="PAGE" s2="4" p="REP::#SUBCHAPTER#::CONTACT::SNJ_FORM" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="snj_contact_conf_d" tag_type="PAGE" s2="4" p="REP::#SUBCHAPTER#::CONTACT::SNJ_CONFIRM" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="menu_d" tag_type="PAGE" s2="6" p="MENU::MENU" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="bmm_d" tag_type="PAGE" s2="6" p="CAMPAGNES::BMM::BMM_#CAMPAIGN_ID#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="btm_d" tag_type="PAGE" s2="6" p="CAMPAGNES::BTM::BTM_#CAMPAIGN_ID#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="interstitial_d" tag_type="PAGE" s2="6" p="CAMPAGNES::INTER::INTERSTITIEL_#CAMPAIGN_ID#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="ugc_edito_chart_d" tag_type="PAGE" s2="6" p="INFO_CGU::CHARTE_EDITO" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="ugc_terms_d" tag_type="PAGE" s2="6" p="INFO_CGU::CGU" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="ugc_useraccount_d" tag_type="PAGE" s2="6" p="INFO_CGU::CGU_COMPTE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="ugc_useraccountservice_d" tag_type="PAGE" s2="6" p="INFO_CGU::CGU_SERVICE_COMPTE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="ugc_publisher_info_d" tag_type="PAGE" s2="6" p="INFO_CGU::INFO_EDITEUR" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_connection_d" tag_type="PAGE" s2="7" p="COMPTE::CONNEXION::CONNEXION_#TYPE_CONNEXION#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_create_d" tag_type="PAGE" s2="7" p="COMPTE::CREATION_COMPTE::INSCRIPTION_CLASSIQUE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_create_conf_d" tag_type="PAGE" s2="7" p="COMPTE::CREATION_COMPTE::ACTIVATION_COMPTE_#ACCOUNT_STATUS#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_valid_email_social_d" tag_type="PAGE" s2="7" p="COMPTE::CREATION_COMPTE::INSCRIPTION_EMAIL_SOCIAL" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_fgt_pwd_d" tag_type="PAGE" s2="7" p="COMPTE::CONNEXION::MDP_OUBLIE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_social_merge_ko_d" tag_type="PAGE" s2="7" p="COMPTE::CONNEXION::SOCIAL_KO" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_social_merge_d" tag_type="PAGE" s2="7" p="COMPTE::CONNEXION::SOCIAL_LIAISON" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_terms_accept_d" tag_type="PAGE" s2="7" p="COMPTE::CGU::CGU_ACCEPTATION_#ACCOUNT_TYPE#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_create_login_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::PROFIL_PSEUDO" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_profile_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::INFO_PROFIL" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_create_city_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::PROFIL_VILLE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_create_name_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::PROFIL_NOM" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_create_date_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::PROFIL_DATE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_review_list_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::AVIS_LISTE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_detail_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::MON_COMPTE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="review_form_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::AVIS_FORM" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" fx="f1=#DRAFT#" />
+		<tag key="review_banning_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::AVIS_REFUS" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="review_form_globalrating_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::AVIS::NOTE_GLOBALE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" at="#ACCOUNT_ID#" fx="f1=#LOGGED#,f2=#RUBRIQUE#,f3=#DRAFT#" />
+		<tag key="review_form_rating_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::AVIS::CRITERES_SECONDAIRES" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" at="#ACCOUNT_ID#" fx="f1=#LOGGED#,f2=#RUBRIQUE#,f3=#DRAFT#" />
+		<tag key="review_form_comment_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::AVIS::COMMENTAIRE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" at="#ACCOUNT_ID#" fx="f1=#LOGGED#,f2=#RUBRIQUE#,f3=#DRAFT#" />
+		<tag key="review_confirm_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::AVIS::CONFIRMATION" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" at="#ACCOUNT_ID#" fx="f1=#LOGGED#,f2=#RUBRIQUE#,f3=#DRAFT#" />
+		<tag key="review_error_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::AVIS::ERREUR" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" at="#ACCOUNT_ID#" fx="f1=#LOGGED#,f2=#RUBRIQUE#,f3=#DRAFT#" />
+		<tag key="review_multi_column_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::AVIS_FORM_RUBRIQUE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="error_d" tag_type="PAGE" s2="8" p="#CHAPTER#::::TYPE_#ERROR_TYPE#::ERREUR" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" xto="#EXT_SOURCE#" />
+		<tag key="iti_d" tag_type="PAGE" s2="#RECH_TYPE#" p="REP::FD::FD_ITI" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_lafo_d" tag_type="PAGE" s2="3" p="REP::FD::LAFO::FD_LAFO_PROMO" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="popup_geoloc_d" tag_type="PAGE" s2="2" p="GEOLOC::POP_GEOLOC" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="notif_list_d" tag_type="PAGE" s2="2" p="NOTIFICATION::LISTE_NOTIFICATION" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" at="#ACCOUNT_ID#" />
+		<tag key="book_transac_lafo_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_RESTO::RSV_#BOOK_TYPE#_ETAPE3" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="lrfirst_d" tag_type="PUBLISHER" ati="[LR;PRO;BI1]" />
+		<tag key="teaser_gooddeal_d" tag_type="PUBLISHER" ati="[FD;BPTEASER]" />
+		<tag key="gooddeal_d" tag_type="PUBLISHER" ati="[FDBP;BP]" />
+		<tag key="cvi_d" tag_type="PUBLISHER" ati="[FD;CV]" />
+		<tag key="pvi_home_d" tag_type="PUBLISHER" ati="[FD;PVI;PVII]" />
+		<tag key="pvi_video_d" tag_type="PUBLISHER" ati="[FD;PVI;PVIV]" />
+		<tag key="pvi_photo_d" tag_type="PUBLISHER" ati="[FD;PVI;PVIP]" />
+		<tag key="pvi_cat_d" tag_type="PUBLISHER" ati="[FD;PVI;CAT]" />
+		<tag key="website_d" tag_type="PUBLISHER" ati="[FD;LVS]" />
+		<tag key="teaser_d" tag_type="PUBLISHER" ati="[FD;VIT_#TEASER_TYPE#_TEASER]" />
+		<tag key="teaser_lafo_d" tag_type="PUBLISHER" ati="[FD;LA_FO]" />
+		<tag key="lafo_d" tag_type="PUBLISHER" ati="[FDLAFO;LA_FO_PROMO]" />
+		<tag key="pvi_viewer_video_d" tag_type="PUBLISHER" ati="[FDRICH;PVI;PVIV]" />
+		<tag key="pvi_viewer_photo_d" tag_type="PUBLISHER" ati="[FDRICH;PVI;PVIP]" />
+		<tag key="viewer_video_d" tag_type="PUBLISHER" ati="[FDRICH;VSA]" />
+		<tag key="privilege_website_d" tag_type="PUBLISHER" ati="[FD;PRIVILEGE]" />
+		<tag key="rdv_transac_d" tag_type="PUBLISHER" ati="[LR;RDV_TRANSAC_#TRANSAC_TYPE#]" />
+		<tag key="favoris_add_review_d" tag_type="PUBLISHER" ati="[FAVORIS;UGC_AVIS]" />
+		<tag key="favoris_add_photo_d" tag_type="PUBLISHER" ati="[FAVORIS;UGC_PHOTO]" />
+		<tag key="histo_add_review_d" tag_type="PUBLISHER" ati="[HISTORIQUE;UGC_AVIS]" />
+		<tag key="histo_add_photo_d" tag_type="PUBLISHER" ati="[HISTORIQUE;UGC_PHOTO]" />
+		<tag key="sante_add_favoris_d" tag_type="PUBLISHER" ati="[FD_SANTE;AJOUT_FAVORIS]" />
+		<tag key="fd_add_favoris_d" tag_type="PUBLISHER" ati="[FD;AJOUT_FAVORIS]" />
+		<tag key="review_notif_d" tag_type="PUBLISHER" ati="[FD;NOTIF_AVIS]" />
+		<tag key="ri_picto_1_d" tag_type="PUBLISHER" ati="[Raccourcis;#ORIGINE#;#RACCOURCIS#]" />
+		<tag key="ri_picto_2_d" tag_type="PUBLISHER" ati="[Raccourcis;#ORIGINE#;#RACCOURCIS#]" />
+		<tag key="ri_picto_3_d" tag_type="PUBLISHER" ati="[Raccourcis;#ORIGINE#;#RACCOURCIS#]" />
+		<tag key="ri_picto_4_d" tag_type="PUBLISHER" ati="[Raccourcis;#ORIGINE#;#RACCOURCIS#]" />
+		<tag key="ri_bloc_d" tag_type="PUBLISHER" ati="[BlocRaccourcis;#BLOC_ORIGINE#]" />
+		<tag key="fil_actu_d" tag_type="PUBLISHER" ati="[FD;FIL_ACTU]" />
+		<tag key="urm_d" tag_type="AUTOPROMO" ati="[#AT_CAMPAIGN_ID#;#AT_CAMPAIGN_FORMAT#]" />
+		<tag key="photo_contrib_form_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB_PHOTO::PHOTO_FORM" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="photo_contrib_confirm_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB_PHOTO::PHOTO_CONF" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="photo_contrib_menu_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB_PHOTO::PHOTO_MENU_ACTION" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="photo_upload_status_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB_PHOTO::PHOTO_ENVOI_#UPLOAD_STATUS#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="favoris_d" tag_type="PAGE" s2="#RECH_TYPE#" p="FAVORIS::FAVORIS_#LIST_STATUS#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="review_d" tag_type="PAGE" s2="#RECH_TYPE#" p="COMPTE::GESTION_COMPTE::MES_AVIS" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="nes_compte_d" tag_type="PAGE" s2="7" p="COMPTE::NES_COMPTE" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="viewer_photo_360_d" tag_type="PAGE" s2="3" p="REP::#SUBCHAPTER#::RICHMEDIA::RICH_PHOTO_360_#PHOTO_TYPE#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_profile_consult_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::MON_PROFIL" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_useful_infos_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::INFOS_UTILES" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_access_d" tag_type="PAGE" s2="7" p="COMPTE::ACCES_#TYPE_CONNEXION#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="transac_bascule_compte_d" tag_type="PAGE" s2="3" p="REP::FD::#TRANSAC_TYPE#::BASCULE_COMPTE" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_rdv_consult_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::MES_RDV::#TRANSAC_TYPE#_#ORIGINE_RDV#_#LIST_STATUS#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="rdv_recap_final_d" tag_type="PAGE" s2="3" p="REP::FD::#TRANSAC_TYPE#::RDV_RECAP_FINAL" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_create_num_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::PROFIL_NUMERO" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_check_number_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::VERIFICATION_NUMERO" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_check_number_status_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::VERIF_NUMERO_#STATUS#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_change_number_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::MODIFICATION_NUMERO" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="account_change_number_status_d" tag_type="PAGE" s2="7" p="COMPTE::PROFIL_COMPTE::MODIF_NUMERO_#STATUS#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="access_cqfd_cfpm_d" tag_type="PAGE" s2="3" p="REP::#SUBCHAPTER#::ACCES_CQFD_CFPM" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" xto="#EXT_SOURCE#" />
+		<tag key="ri_edition_d" tag_type="PAGE" s2="2" p="HOMEPAGE::EDITION_RACCOURCIS" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_calendar_access_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::ACCESS_CALENDRIER" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_gps_access_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::ACCESS_GPS" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="favoris_list_d" tag_type="PAGE" s2="2" p="FAVORIS_LISTE::LISTE_#LIST_STATUS#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="favoris_menu_d" tag_type="PAGE" s2="2" p="REP::#SUBCHAPTER#::FAVORIS_MENU" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="list_create_d" tag_type="PAGE" s2="2" p="REP::#SUBCHAPTER#::LISTE_CREATION" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="list_edit_d" tag_type="PAGE" s2="2" p="REP::#SUBCHAPTER#::LISTE_EDITION" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="list_detail_d" tag_type="PAGE" s2="2" p="REP::FAVORIS_LISTE_DETAIL::LISTE_#LIST_STATUS#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="photo_etape2_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::PHOTO_ETAPE2" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="review_etape2_d" tag_type="PAGE" s2="7" p="UGC::CONTRIB::AVIS_ETAPE2" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="appli_start_ezeeworld" tag_type="PAGE" s2="1" p="APPLI::START_EZEEWORLD" />
+		<tag key="zae_d" tag_type="PUBLISHER" ati="[BLOC_ZAE]" />
+		<tag key="zae_bloc_d" tag_type="PUBLISHER" ati="[BLOC_ZAE;BLOC;#TYPE_ACTION_ZAE#]" />
+		<tag key="zai_d" tag_type="PUBLISHER" ati="[BLOC_ZAI]" />
+		<tag key="zai_bloc_d" tag_type="PUBLISHER" ati="[BLOC_ZAI;BLOC;#TYPE_ACTION_ZAI#]" />
+		<tag key="see_services_list_d" tag_type="PUBLISHER" ati="[FD;SERVICES]" />
+		<tag key="see_doctors_list_d" tag_type="PUBLISHER" ati="[FD;MEDECINS]" />
+		<tag key="services_list_d" tag_type="PAGE" s2="3" p="REP::FD::LISTE_SERVICES" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="doctors_list_d" tag_type="PAGE" s2="3" p="REP::FD::LISTE_MEDECINS" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="rdv_beaute_recap_final_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_BEAUTE::RDV_BEAUTE_RECAP_FINAL" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="promesse_compte_d" tag_type="PAGE" s2="6" p="EDITORIAL::PROMESSE_COMPTE_#TYPE_PROMESSE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_add_photo_d" tag_type="PUBLISHER" ati="[FD;SNACKBAR;UGC_PHOTO]" />
+		<tag key="account_manage_rdv_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::MES_RDV::#TRANSAC_TYPE#_GERER_RDV" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="add_photo_d" tag_type="PUBLISHER" ati="[#SUBCHAPTER#;SNACKBAR;UGC_PHOTO]" />
+		<tag key="transac_time_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::CRENEAU" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="transac_start_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::RDV_ETAPE_1" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" fx="f1=#PARTENAIRE_TRANSAC#" />
+		<tag key="transac_profil_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::RDV_ETAPE_2" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" fx="f1=#PARTENAIRE_TRANSAC#" />
+		<tag key="transac_confirmation_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::RDV_CONFIRMATION" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" fx="f1=#PARTENAIRE_TRANSAC#" />
+		<tag key="transac_service_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::SERVICE" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="transac_motif_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::MOTIF" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="transac_pro_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::PRO" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="transac_specialite_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::SPECIALITE" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="transac_recap_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::RDV_RECAP_FINAL" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" fx="f1=#PARTENAIRE_TRANSAC#" />
+		<tag key="transac_add_favoris_d" tag_type="PUBLISHER" ati="[FD_#TRANSAC_TYPE#;AJOUT_FAVORIS]" />
+		<tag key="fd_transac_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::FD_#TYPE_FD#" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_cancel_rdv_transac_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::ANNUL_RDV_#TRANSAC_TYPE#_#STATUS#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_choix_client_transac_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::CHOIX_CLIENT_#TRANSAC_TYPE#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="account_info_client_transac_d" tag_type="PAGE" s2="7" p="COMPTE::GESTION_COMPTE::INFO_CLIENT_#TRANSAC_TYPE#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_prestation_transac_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::FD_#TYPE_FD#" x2="#RUBRIQUE#" x3="#LOCALITE#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x12="#SEARCH_WHAT#" x13="#SEARCH_WHERE#" x14="#GEO_STATE#" x15="#FID_STATUS#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="geolocation_popin_d" tag_type="PAGE" s2="7" p="REP::HP::EEZEWORLD" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="fd_fil_actu_d" tag_type="PAGE" s2="3" p="REP::FD::LISTE_FIL_ACTU" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="onboarding_d" tag_type="PAGE" s2="6" p="SOLLICITATION::ONBOARDING::#TYPE_ONBOARDING#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="info_geoloc_d" tag_type="PAGE" s2="6" p="SOLLICITATION::GEOLOC::#SUBCHAPTER#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="info_geoloc_desact_d" tag_type="PAGE" s2="6" p="SOLLICITATION::GEOLOC::INACTIVE" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="info_notification_d" tag_type="PAGE" s2="6" p="SOLLICITATION::NOTIFICATION::#TYPE_NOTIFICATION#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="geo_consent_d" tag_type="PAGE" s2="6" p="SOLLICITATION::RGPD::PAGE_XY_#XY_AB_VARIANT#" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="geo_consent_validate_d" tag_type="PAGE" s2="6" p="SOLLICITATION::RGPD::PAGE_XY_#XY_AB_VARIANT#_CONF" x6="#ORIENTATION#" x7="#VERSION#" x8="#PORTAIL_ID#" x11="#GEOLOC_ACCEPTED#" x14="#GEO_STATE#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" fx="f1=#XY_TOUT_ACCEPTER#,f2=#XY_PERSO_GEOLOC#,f3=#XY_PUB_GEOLOC#,f4=#XY_ETUDE_MOBILITE#" />
+		<tag key="rdv_recap_compte_d" tag_type="PAGE" s2="7" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::RDV_RECAP_COMPTE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="rdv_recap_compte_d" tag_type="PAGE" s2="7" p="REP::FD::TRANSAC_#TRANSAC_TYPE#::RDV_RECAP_COMPTE" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="quote_request_desc_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC::DEVIS_FORMULAIRE_DESCRIPTION" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="quote_request_contact_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC::DEVIS_FORMULAIRE_CONTACT" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="quote_request_confirm_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC::DEVIS_FORMULAIRE_CONFIRMATION" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="quote_request_error_d" tag_type="PAGE" s2="3" p="REP::FD::TRANSAC::DEVIS_FORMULAIRE_ERREUR" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="param_d" tag_type="PAGE" s2="6" p="MENU::PARAMETRES::CONFIDENTIALITE" x10="#HISTO_RECHERCHERCHE#_#XY_PERSO_GEOLOC#_#XY_PUB_GEOLOC#" x11="#GEOLOC_ACCEPTED#" x17="#NOTIF_ACCEPTED#" x18="#UNIQUERY_ID#" x20="#LOGGED#" gx="#GX#" gy="#GY#" at="#ACCOUNT_ID#" xto="#EXT_SOURCE#" />
+		<tag key="add_tile_c" tag_type="CLIC" s2="2" p="HOME::AJOUT_TESSELLE" click="A" />
+		<tag key="histo_c" tag_type="CLIC" s2="2" p="MENU::HISTORIQUE_#HISTO_STATUS#" click="A" />
+		<tag key="del_histo_c" tag_type="CLIC" s2="2" p="HISTORIQUE::HISTORIQUE_SUPPRIMER" click="A" />
+		<tag key="del_histo_conf_c" tag_type="CLIC" s2="2" p="HISTORIQUE::HISTORIQUE_SUPPRIMER_CONF" click="A" />
+		<tag key="del_histo_all_c" tag_type="CLIC" s2="2" p="HISTORIQUE::HISTORIQUE_VIDER" click="A" />
+		<tag key="activate_histo_c" tag_type="CLIC" s2="2" p="MENU::HISTORIQUE_ACTIVER" click="A" />
+		<tag key="histo_search_c" tag_type="CLIC" s2="2" p="HISTORIQUE::HISTORIQUE_RECHERCHE" click="A" />
+		<tag key="histo_result_c" tag_type="CLIC" s2="2" p="HISTORIQUE::HISTORIQUE_RESULTAT" click="A" />
+		<tag key="histo_all_c" tag_type="CLIC" s2="2" p="HISTORIQUE::HISTORIQUE_TOUS" click="A" />
+		<tag key="find_mosaic_c" tag_type="CLIC" s2="#RECH_TYPE#" p="RECH::TROUVER::MOSAIQUE::TROUVER_#TYPE_ACTIVITE#" click="A" />
+		<tag key="ambiguity_where_c" tag_type="CLIC" s2="#RECH_TYPE#" p="SELECT::AMB::OU" click="A" />
+		<tag key="ambiguity_what_c" tag_type="CLIC" s2="3" p="SELECT::AMB::QUOI_#TYPE_AMB#" click="A" />
+		<tag key="bi_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::#SECOND_CHAPTER#::BI" click="A" />
+		<tag key="poi_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::LR::CARTE::POI" click="A" />
+		<tag key="poi_mini_c" tag_type="CLIC" s2="3" p="REP::LR::CARTE::POI_MINI" click="A" />
+		<tag key="display_nbr_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::FANTOMAS" click="A" />
+		<tag key="open_popup_call_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::APPEL" click="A" />
+		<tag key="call_conf_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::CONF_APPEL" click="A" />
+		<tag key="open_popup_number_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::#SECOND_CHAPTER#::TELEPHONE" click="A" />
+		<tag key="number_conf_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::CONF_TELEPHONE" click="A" />
+		<tag key="email_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::EMAIL" click="A" />
+		<tag key="address_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::ADRESSE" click="A" />
+		<tag key="raster_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::PLAN_RASTER" click="A" />
+		<tag key="guideme_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::ITI" click="A" />
+		<tag key="choose_gps_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::ITI_#GPS_PARTNERS#" click="A" />
+		<tag key="order_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::CMD" click="A" />
+		<tag key="book_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::RSV" click="A" />
+		<tag key="book_hotel_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::#PARTENAIRE#::RESERVER_CHAMBRE" click="A" />
+		<tag key="transac_find_table_c" tag_type="CLIC" s2="3" p="REP::FD::CONTACT::TROUVER_TABLE_TRANSAC_RESTO" click="A" />
+		<tag key="book_lafo_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::FD_LAFO::CONTACT::RSV_LAFO_#LAFO_BOOK_TYPE#" click="A" />
+		<tag key="rdv_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::RDV" click="A" />
+		<tag key="rdv_transac_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::RDV_TRANSAC_#TRANSAC_TYPE#" click="A" />
+		<tag key="rdv_transac_conf_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::RDV_TRANSAC_#TRANSAC_TYPE#_CONF" click="A" />
+		<tag key="rdv_transac_close_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::FERMETURE" click="A" />
+		<tag key="rdv_transac_time_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::CRENEAU_VALIDER" click="A" />
+		<tag key="transac_next_day_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::JOUR_SUIVANT" click="A" />
+		<tag key="transac_previous_day_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::JOUR_PRECEDENT" click="A" />
+		<tag key="transac_next_rdv_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::JOUR_PROCHAIN_RDV" click="A" />
+		<tag key="transac_bloc_repli_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::INCITER_PRENDRE_RDV" click="A" />
+		<tag key="transac_start_continue_c" tag_type="CLIC" s2="3" p="REP::FD_TRANSAC_#TRANSAC_TYPE#::#PARTENAIRE_TRANSAC#::RDV_CONTINUER_ETAPE_1" click="A" />
+		<tag key="transac_profil_confirm_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#_TRANSAC_#TRANSAC_TYPE#::#PARTENAIRE_TRANSAC#::RDV_CONTINUER_ETAPE_2" click="A" />
+		<tag key="transac_recap_add_to_calendar_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#_TRANSAC_#TRANSAC_TYPE#::#PARTENAIRE_TRANSAC#::AJOUT_CALENDRIER_RDV" click="A" />
+		<tag key="transac_recap_cancel_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#_TRANSAC_#TRANSAC_TYPE#::#PARTENAIRE_TRANSAC#::ANNULER_RDV" click="A" />
+		<tag key="transac_recap_manage_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#_TRANSAC_#TRANSAC_TYPE#::#PARTENAIRE_TRANSAC#::VOIR_RDV" click="A" />
+		<tag key="transac_recap_favori_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#_TRANSAC_#TRANSAC_TYPE#::#PARTENAIRE_TRANSAC#::FAVORI_RDV" click="A" />
+		<tag key="transac_recap_favori_del_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#_TRANSAC_#TRANSAC_TYPE#::#PARTENAIRE_TRANSAC#::SUPPRIMER_FAVORIS_RDV" click="A" />
+		<tag key="transac_recap_call_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#_TRANSAC_#TRANSAC_TYPE#::CONTACT::APPEL" click="A" />
+		<tag key="transac_recap_carto_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#_TRANSAC_#TRANSAC_TYPE#::CONTACT::ITI" click="A" />
+		<tag key="buy_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::ACHETER" click="A" />
+		<tag key="add_contact_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::AJOUT_CONTACT" click="A" />
+		<tag key="open_popup_share_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::PARTAGER" click="A" />
+		<tag key="share_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::PARTAGER_#TYPE_SHARE#" click="A" />
+		<tag key="write_review_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::DEPOSER_AVIS_#REVIEW_LOC#" click="A" />
+		<tag key="sort_filter_c" tag_type="CLIC" s2="3" p="REP::LR::TRI_FILTRE::TRIER_FILTRER" click="A" />
+		<tag key="sort_criteria_c" tag_type="CLIC" s2="3" p="REP::LR::TRI_FILTRE::TRI_#SORT_TYPE#" click="A" />
+		<tag key="filter_criteria_c" tag_type="CLIC" s2="3" p="REP::LR::TRI_FILTRE::FILTRE_#FILTER_TYPE#" click="A" />
+		<tag key="valid_sort_filter_c" tag_type="CLIC" s2="3" p="REP::LR::TRI_FILTRE::VALIDER_TRI_FILTRE" click="A" />
+		<tag key="more_info_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::FD::COORD::PLUS_COORD" click="A" />
+		<tag key="more_numbers_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::FD::COORD::AUTRES_NUM" click="A" />
+		<tag key="viewer_photo_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::VISIO_PHOTO" click="A" />
+		<tag key="review_item_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::AVIS" click="A" />
+		<tag key="reviewlist_item_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::AVIS_LIST" click="A" />
+		<tag key="report_review_c" tag_type="CLIC" s2="3" p="REP::FD::SIGNAL_ABUS_AVIS" click="A" />
+		<tag key="report_photo_c" tag_type="CLIC" s2="3" p="REP::FD::SIGNAL_ABUS_PHOTO" click="A" />
+		<tag key="report_review_conf_c" tag_type="CLIC" s2="3" p="REP::FD::CONFIRM_ABUS_AVIS" click="A" />
+		<tag key="report_photo_conf_c" tag_type="CLIC" s2="3" p="REP::FD::CONFIRM_ABUS_PHOTO" click="A" />
+		<tag key="afnor_c" tag_type="CLIC" s2="3" p="REP::FD::AFNOR_ESPLUS" click="A" />
+		<tag key="website_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::#TYPE_LIEN_SITE#" click="A" />
+		<tag key="pvi_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::PVI_VIGNETTE" click="A" />
+		<tag key="pvi_video_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::PVI_VIDEO" click="A" />
+		<tag key="pvi_photo_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::PVI_PHOTO" click="A" />
+		<tag key="video_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::VSA" click="A" />
+		<tag key="photo_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::PHOTO" click="A" />
+		<tag key="teaser_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::TEASER_#TEASER_TYPE#" click="A" />
+		<tag key="teaser_navigation_c" tag_type="CLIC" s2="3" p="REP::FD::TEASER_NAV" click="A" />
+		<tag key="teaser_see_all_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::TEASER_VOIRTOUTES_#TEASER_TYPE#" click="A" />
+		<tag key="lafo_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::TEASER_LAFO" click="A" />
+		<tag key="gooddeal_c" tag_type="CLIC" s2="3" p="REP::FD_BONPLAN::CONTACT::TEASER_BONPLAN" click="A" />
+		<tag key="gooddeal_popup_share_c" tag_type="CLIC" s2="3" p="REP::FD_BONPLAN::CONTACT::PARTAGER_BONPLAN" click="A" />
+		<tag key="gooddeal_share_c" tag_type="CLIC" s2="3" p="REP::FD_BONPLAN::CONTACT::PARTAGER_BONPLAN_#TYPE_SHARE#" click="A" />
+		<tag key="find_c" tag_type="CLIC" s2="#RECH_TYPE#" p="RECH::#SUBCHAPTER#::#SECOND_CHAPTER#::TROUVER" click="A" />
+		<tag key="contact_snj_c" tag_type="CLIC" s2="4" p="REP::FD::CONTACT::SNJ_COORD" click="A" />
+		<tag key="find_missing_call_c" tag_type="CLIC" s2="5" p="RECH::TROUVER::TROUVER_APPEL_MANQUE" click="A" />
+		<tag key="account_connect_c" tag_type="CLIC" s2="7" p="COMPTE::CONNEXION::SE_CONNECTER" click="A" />
+		<tag key="account_connect_social_c" tag_type="CLIC" s2="7" p="COMPTE::CONNEXION::SE_CONNECTER_#SOCIAL_WEBSITE#" click="A" />
+		<tag key="account_create_c" tag_type="CLIC" s2="7" p="COMPTE::#SUBCHAPTER#::S_INSCRIRE" click="A" />
+		<tag key="account_create_begin_c" tag_type="CLIC" s2="7" p="COMPTE::INSCRIPTION::CONTINUER" click="A" />
+		<tag key="account_create_social_c" tag_type="CLIC" s2="7" p="COMPTE::INSCRIPTION::S_INSCRIRE_#SOCIAL_WEBSITE#" click="A" />
+		<tag key="account_raise_activate_c" tag_type="CLIC" s2="7" p="COMPTE::INSCRIPTION::OK_VALIDATION_RELANCE" click="A" />
+		<tag key="account_create_continue_c" tag_type="CLIC" s2="7" p="COMPTE::PROFIL::CONTINUER_#ACCOUNT_PAGE#" click="A" />
+		<tag key="account_accept_terms_c" tag_type="CLIC" s2="7" p="COMPTE::CGU::CONTINUER_#ACCOUNT_TYPE#" click="A" />
+		<tag key="account_profile_continue_c" tag_type="CLIC" s2="7" p="COMPTE::PROFIL::CONTINUER" click="A" />
+		<tag key="account_create_pass_c" tag_type="CLIC" s2="7" p="COMPTE::PROFIL::PASSER_#ACCOUNT_PAGE#" click="A" />
+		<tag key="account_fgt_pwd_c" tag_type="CLIC" s2="7" p="COMPTE::CONNEXION::MDP_OUBLIE" click="A" />
+		<tag key="account_send_pwd_c" tag_type="CLIC" s2="7" p="COMPTE::INSCRIPTION::EMAIL_MDP" click="A" />
+		<tag key="logout_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::DECONNEXION" click="A" />
+		<tag key="account_update_info_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::INFO_MODIFIER" click="A" />
+		<tag key="account_del_review_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::AVIS_SUPPRIMER" click="A" />
+		<tag key="account_new_review_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::MES_AVIS::DEPOSER_AVIS" click="A" />
+		<tag key="close_c" tag_type="CLIC" s2="7" p="#CHAPTER#::#SUBCHAPTER#::FERMER" click="N" />
+		<tag key="account_activate_c" tag_type="CLIC" s2="7" p="COMPTE::CONNEXION::OK_VALIDATION_#ACCOUNT_TYPE#" click="A" />
+		<tag key="send_activate_email_c" tag_type="CLIC" s2="7" p="COMPTE::CONNEXION::SEND_MAIL_#ACCOUNT_TYPE#" click="A" />
+		<tag key="open_email_c" tag_type="CLIC" s2="7" p="COMPTE::CONNEXION::OPEN_MAIL_#ACCOUNT_TYPE#" click="A" />
+		<tag key="rate_why_rate_c" tag_type="CLIC" s2="7" p="AVIS::CONTRIB::DEPOT_PEDAGO_NOTER" click="A" />
+		<tag key="rate_advice_c" tag_type="CLIC" s2="7" p="AVIS::CONTRIB::DEPOT_PEDAGO_CONSEIL" click="A" />
+		<tag key="rate_why_certify_c" tag_type="CLIC" s2="7" p="AVIS::CONTRIB::DEPOT_PEDAGO_CERTIF" click="A" />
+		<tag key="rate_conf_c" tag_type="CLIC" s2="7" p="AVIS::CONTRIB::DEPOT_VALIDER" click="A" />
+		<tag key="geoloc_ok_c" tag_type="CLIC" s2="2" p="GEOLOC::GEOLOC_OK" click="A" />
+		<tag key="geoloc_param_c" tag_type="CLIC" s2="2" p="GEOLOC::GEOLOC_PARAM" click="A" />
+		<tag key="menu_c" tag_type="CLIC" s2="2" p="MENU::MENU_#MENU_TYPE#" click="A" />
+		<tag key="missed_call_c" tag_type="CLIC" s2="2" p="MENU::INV::APPEL_MANQUE" click="A" />
+		<tag key="cqlr_addpro_btn_c" tag_type="CLIC" s2="3" p="REP::LR::CQLR" click="A" />
+		<tag key="cqlr_addpro_btn_pdr_c" tag_type="CLIC" s2="3" p="REP::LR::CQLR_PDR" click="A" />
+		<tag key="cqlr_addpro_link_pdr_c" tag_type="CLIC" s2="3" p="REP::LR::CQLR_PDR2" click="A" />
+		<tag key="cqlr_report_error_c" tag_type="CLIC" s2="3" p="REP::LR::CQLR_SIGNAL_RESULTAT" click="A" />
+		<tag key="cqfd_c" tag_type="CLIC" s2="3" p="REP::FD::CQFD" click="A" />
+		<tag key="privilege_website_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::SITE_PRIVILEGE" click="A" />
+		<tag key="notif_menu_c" tag_type="CLIC" s2="2" p="MENU::NOTIFICATION::NOTIFICATION_#NOTIF_TYPE#" click="A" />
+		<tag key="notif_c" tag_type="CLIC" s2="2" p="MENU::NOTIFICATION::NOTIFICATION" click="A" />
+		<tag key="update_notif_c" tag_type="CLIC" s2="2" p="MENU::NOTIFICATION::NOTIFICATION_MODIFIER" click="A" />
+		<tag key="del_notif_c" tag_type="CLIC" s2="2" p="MENU::NOTIFICATION::NOTIFICATION_SUPPRIMER" click="A" />
+		<tag key="del_notif_many_c" tag_type="CLIC" s2="2" p="MENU::NOTIFICATION::NOTIFICATION_SUPPRIMERPLUS" click="A" />
+		<tag key="del_notif_all_c" tag_type="CLIC" s2="2" p="MENU::NOTIFICATION::NOTIFICATION_VIDER" click="A" />
+		<tag key="del_notif_all_conf_c" tag_type="CLIC" s2="2" p="MENU::NOTIFICATION::NOTIFICATION_VIDERCONFIRM" click="A" />
+		<tag key="transac_time_slot_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::CONTACT::CRENEAU_#BOOK_TYPE#_#LAFO_BOOK_TYPE#_TRANSAC_RESTO" click="A" />
+		<tag key="transac_find_c" tag_type="CLIC" s2="3" p="REP::LR::TRANSAC_RESTO::TROUVER_TRANSAC_RESTO" click="A" />
+		<tag key="urm_c" tag_type="AUTOPROMO" atc="[#AT_CAMPAIGN_ID#;#AT_CAMPAIGN_FORMAT#]" />
+		<tag key="depot_photo_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::DEPOSER_PHOTO_#REVIEW_LOC#" click="A" />
+		<tag key="photo_conf_c" tag_type="CLIC" s2="7" p="UGC::CONTRIB_PHOTO::DEPOT_PHOTO_VALIDER" click="A" />
+		<tag key="photo_add_c" tag_type="CLIC" s2="7" p="UGC::CONTRIB_PHOTO::DEPOT_PHOTO_AJOUTER" click="A" />
+		<tag key="photo_gallery_c" tag_type="CLIC" s2="7" p="UGC::CONTRIB_PHOTO::DEPOT_PHOTO_GALERIE" click="A" />
+		<tag key="photo_device_c" tag_type="CLIC" s2="7" p="UGC::CONTRIB_PHOTO::DEPOT_PHOTO_APPAREIL" click="A" />
+		<tag key="xy_more_info_c" tag_type="CLIC" s2="6" p="MENU::XY_ESPLUS" click="A" />
+		<tag key="xy_close_c" tag_type="CLIC" s2="6" p="MENU::XY_FERMER" click="A" />
+		<tag key="xy_confidentiality_c" tag_type="CLIC" s2="6" p="MENU::XY_CONFIDENTIALITE" click="A" />
+		<tag key="photo_cancel_c" tag_type="CLIC" s2="7" p="UGC::CONTRIB_PHOTO::DEPOT_PHOTO_ABANDON" click="A" />
+		<tag key="report_avv_review_c" tag_type="CLIC" s2="3" p="REP::FD::SIGNAL_ABUS_AVIS_VERIFIE" click="A" />
+		<tag key="review_answer_buc_c" tag_type="CLIC" s2="3" p="REP::FD::BUC" click="A" />
+		<tag key="review_answer_avv_c" tag_type="CLIC" s2="3" p="REP::FD::DDR_AVIS_VERIFIE" click="A" />
+		<tag key="review_see_all_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::AVIS_TOUS" click="A" />
+		<tag key="sort_review_criteria_c" tag_type="CLIC" s2="3" p="REP::FD::TRI_FILTRE::TRI_#SORT_TYPE#" click="A" />
+		<tag key="fd_tab_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::ONGLET_#TAB_TYPE#" click="A" />
+		<tag key="nes_find_c" tag_type="CLIC" s2="2" p="NES::#SUBCHAPTER#::NES_RECHERCHER" click="A" />
+		<tag key="nes_histo_c" tag_type="CLIC" s2="2" p="NES::#SUBCHAPTER#::NES_HISTORIQUE" click="A" />
+		<tag key="nes_favoris_c" tag_type="CLIC" s2="2" p="NES::#SUBCHAPTER#::NES_FAVORIS" click="A" />
+		<tag key="nes_compte_c" tag_type="CLIC" s2="2" p="NES::#SUBCHAPTER#::NES_MONCOMPTE" click="A" />
+		<tag key="hp_formpj_c" tag_type="CLIC" s2="2" p="HOME::FORMULAIRE_PJ" click="A" />
+		<tag key="hp_formpb_c" tag_type="CLIC" s2="2" p="HOME::FORMULAIRE_PB" click="A" />
+		<tag key="add_favoris_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::INFO::AJOUT_FAVORIS_#REVIEW_LOC#" click="A" />
+		<tag key="del_favoris_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::INFO::SUPPRIMER_FAVORIS" click="A" />
+		<tag key="del_favoris_list_c" tag_type="CLIC" s2="2" p="FAVORIS::SUPPRIMER_LISTE" click="A" />
+		<tag key="del_favoris_all_c" tag_type="CLIC" s2="2" p="FAVORIS::SUPPRIMER_TOUT" click="A" />
+		<tag key="add_favoris_tolist_c" tag_type="CLIC" s2="2" p="REP::FAVORIS_LISTE::VALIDER_LISTE_FILLED" click="A" />
+		<tag key="photo_360_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::CONTACT::PLAN_360" click="A" />
+		<tag key="nes_compte_connect_c" tag_type="CLIC" s2="7" p="COMPTE::NES_COMPTE::SE_CONNECTER" click="A" />
+		<tag key="nes_compte_create_c" tag_type="CLIC" s2="7" p="COMPTE::NES_COMPTE::CREER_COMPTE" click="A" />
+		<tag key="see_profile_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::VOIR_PROFIL" click="A" />
+		<tag key="see_useful_infos_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::VOIR_INFOS" click="A" />
+		<tag key="see_favoris_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::VOIR_FAVORIS" click="A" />
+		<tag key="see_review_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::VOIR_AVIS" click="A" />
+		<tag key="review_to_fd_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::MES_AVIS::VOIR_FD" click="A" />
+		<tag key="menu_zone_avatar_c" tag_type="CLIC" s2="7" p="NES::#SUBCHAPTER#::ZONE_AVATAR" click="A" />
+		<tag key="account_access_connect_c" tag_type="CLIC" s2="7" p="COMPTE::ACCES_COMPTE::SE_CONNECTER" click="A" />
+		<tag key="account_access_create_c" tag_type="CLIC" s2="7" p="COMPTE::ACCES_COMPTE::CREER_COMPTE" click="A" />
+		<tag key="account_access_c" tag_type="CLIC" s2="7" p="#CHAPTER#::ACCES_COMPTE" click="A" />
+		<tag key="search_access_c" tag_type="CLIC" s2="7" p="#CHAPTER#::ACCES_RECHERCHE" click="A" />
+		<tag key="transac_previous_rdv_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::JOUR_PRECEDENT_RDV" click="A" />
+		<tag key="transac_bascule_compte_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::OK_BASCULE_COMPTE" click="A" />
+		<tag key="account_valid_code_sms_c" tag_type="CLIC" s2="7" p="COMPTE::PROFIL::VALID_CODE_SMS" click="A" />
+		<tag key="account_change_number_c" tag_type="CLIC" s2="7" p="COMPTE::PROFIL::MODIFIER_NUMERO" click="A" />
+		<tag key="account_send_code_sms_c" tag_type="CLIC" s2="7" p="COMPTE::PROFIL::ENVOI_CODE_SMS" click="A" />
+		<tag key="bmm_c" tag_type="CLIC" s2="6" p="CAMPAGNE::#SUBCHAPTER#::BMM::VOIR_#CAMPAIGN_ID#" click="A" />
+		<tag key="btm_c" tag_type="CLIC" s2="6" p="CAMPAGNE::#SUBCHAPTER#::BTM::VOIR_#CAMPAIGN_ID#" click="A" />
+		<tag key="access_cqfd_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::ACCES_CQFD" click="A" />
+		<tag key="access_cfpm_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::ACCES_CFPM_#LOCATION#" click="A" />
+		<tag key="account_rdv_transac_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::MES_RDV::PRENDRE_RDV_#TRANSAC_TYPE#_#ORIGINE_RDV#" click="A" />
+		<tag key="ri_search_c" tag_type="CLIC" s2="2" p="HOME::RACCOURCIS::#ORIGINE#::RI_#RACCOURCIS#" click="A" />
+		<tag key="ri_edition_c" tag_type="CLIC" s2="2" p="HOME::EDITION_RACCOURCIS::#ACTION#" click="A" />
+		<tag key="account_calendar_rdv_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::CALENDAR_RDV_#TRANSAC_TYPE#" click="A" />
+		<tag key="account_calendar_accept_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::ACCEPT_ACCES_CALENDRIER" click="A" />
+		<tag key="account_calendar_refus_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::REFUS_ACCES_CALENDRIER" click="A" />
+		<tag key="obsolete_bi_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::OBSOLETE_BI" click="A" />
+		<tag key="sort_favoris_c" tag_type="CLIC" s2="2" p="REP::#SUBCHAPTER#::TRI_#SORT_TYPE#" click="A" />
+		<tag key="create_favoris_list_c" tag_type="CLIC" s2="2" p="REP::#SUBCHAPTER#::CREER_LISTE_#LOCATION#" click="A" />
+		<tag key="add_favoris_to_list_c" tag_type="CLIC" s2="2" p="REP::#SUBCHAPTER#::INFO::AJOUT_LISTE" click="A" />
+		<tag key="open_favoris_list_c" tag_type="CLIC" s2="2" p="REP::#SUBCHAPTER#::OUVRIR_LISTE" click="A" />
+		<tag key="edit_favoris_list_c" tag_type="CLIC" s2="2" p="REP::#SUBCHAPTER#::EDITER_LISTE" click="A" />
+		<tag key="suppress_favoris_list_c" tag_type="CLIC" s2="2" p="REP::#SUBCHAPTER#::SUPPRIMER_LISTE" click="A" />
+		<tag key="valid_edit_list_c" tag_type="CLIC" s2="2" p="REP::#SUBCHAPTER#::VALID_#ACTION#" click="A" />
+		<tag key="del_list_all_c" tag_type="CLIC" s2="2" p="REP::#SUBCHAPTER#::VIDER_LISTE" click="A" />
+		<tag key="favoris_menu_c" tag_type="CLIC" s2="2" p="REP::#SUBCHAPTER#::OUVRIR_BI_MENU" click="A" />
+		<tag key="event_connect_gigya_c" tag_type="CLIC" s2="7" p="COMPTE::CONNEXION::#SOCIAL_WEBSITE#::CONNEXION_GIGYA" click="A" />
+		<tag key="see_services_list_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::INFO::VOIR_LISTE_SERVICES" click="A" />
+		<tag key="see_service_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::INFO::VOIR_SERVICE" click="A" />
+		<tag key="see_doctors_list_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::INFO::VOIR_LISTE_MEDECINS" click="A" />
+		<tag key="add_rdv_to_calendar_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::INFO::AJOUT_CALENDRIER_RDV_#TRANSAC_TYPE#" click="A" />
+		<tag key="cqlr_modif_recherche_btn_pdr_c" tag_type="CLIC" s2="3" p="REP::LR::CQLR_MODIF_RECHERCHE_PDR" click="A" />
+		<tag key="promesse_compte_terminer_c" tag_type="CLIC" s2="7" p="COMPTE::PROMESSE_COMPTE::TERMINER_PROMESSE" click="A" />
+		<tag key="promesse_compte_ignorer_c" tag_type="CLIC" s2="7" p="COMPTE::PROMESSE_COMPTE::IGNORER_COMPTE" click="A" />
+		<tag key="promesse_compte_close_c" tag_type="CLIC" s2="6" p="EDITORIAL::PROMESSE_COMPTE_#TYPE_PROMESSE#::IGNORER_PROMESSE" click="A" />
+		<tag key="account_manage_rdv_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::MES_RDV::#TRANSAC_TYPE#_GERER_RDV" click="A" />
+		<tag key="account_reprendre_rdv_transac_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::MES_RDV::REPRENDRE_RDV_#TRANSAC_TYPE#_#ORIGINE_RDV#" click="A" />
+		<tag key="account_move_rdv_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::MES_RDV::#TRANSAC_TYPE#_DEPLACER_RDV" click="A" />
+		<tag key="confirm_move_rdv_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::DEPLACER_RDV_CONFIRME" click="A" />
+		<tag key="see_rdv_transac_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::VOIR_RDV_#TRANSAC_TYPE#" click="A" />
+		<tag key="account_cancel_rdv_transac_c" tag_type="CLIC" s2="7" p="COMPTE::GESTION_COMPTE::ANNULER_RDV_#TRANSAC_TYPE#" click="A" />
+		<tag key="cancel_rdv_transac_c" tag_type="CLIC" s2="7" p="COMPTE::#SUBCHAPTER#::POPUP_ANNUL_#STATUS#_#ACTION#_#TRANSAC_TYPE#" click="A" />
+		<tag key="consult_rdv_transac_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::INFO::VOIR_RDV_#TRANSAC_TYPE#" click="A" />
+		<tag key="account_add_client_transac_c" tag_type="CLIC" s2="7" p="COMPTE::PROFIL::AJOUT_CLIENT_#TRANSAC_TYPE#" click="A" />
+		<tag key="account_see_client_transac_c" tag_type="CLIC" s2="7" p="COMPTE::PROFIL::VOIR_CLIENT_#TRANSAC_TYPE#" click="A" />
+		<tag key="swipe_photo_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::PHOTO_SLIDE" click="A" />
+		<tag key="float_open_popup_call_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::APPEL_PICTO" click="A" />
+		<tag key="float_call_conf_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::CONF_APPEL_PICTO" click="A" />
+		<tag key="float_open_popup_number_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::#SECOND_CHAPTER#::TELEPHONE_PICTO" click="A" />
+		<tag key="float_number_conf_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::CONF_TELEPHONE_PICTO" click="A" />
+		<tag key="float_order_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::CMD_PICTO" click="A" />
+		<tag key="float_book_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::RSV_PICTO" click="A" />
+		<tag key="float_book_hotel_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::#PARTENAIRE#::RESERVER_CHAMBRE_PICTO" click="A" />
+		<tag key="float_book_lafo_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::FD_LAFO::CONTACT::RSV_LAFO_#LAFO_BOOK_TYPE#_PICTO" click="A" />
+		<tag key="float_rdv_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::RDV_PICTO" click="A" />
+		<tag key="float_rdv_transac_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::RDV_TRANSAC_#TRANSAC_TYPE#_PICTO" click="A" />
+		<tag key="float_buy_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::ACHETER_PICTO" click="A" />
+		<tag key="filter_rdv_as_soon_c" tag_type="CLIC" s2="3" p="REP::LR::TRI_FILTRE::#TRANSAC_TYPE#_PLUS_VITE" click="A" />
+		<tag key="filter_rdv_date_c" tag_type="CLIC" s2="3" p="REP::LR::TRI_FILTRE::#TRANSAC_TYPE#_A_PARTIR_DE" click="A" />
+		<tag key="map_position_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::PLAN_POSITION" click="A" />
+		<tag key="float_guideme_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::ITI_PICTO" click="A" />
+		<tag key="suggest_change_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::FD::CONTACT::SUGGERER_MODIFICATION" click="A" />
+		<tag key="zae_delete_item_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::#SECOND_CHAPTER#_#TYPE_ACTION_ZAE#::SUPPRESSION" click="A" />
+		<tag key="zai_delete_item_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::#SECOND_CHAPTER#_#TYPE_ACTION_ZAI#::SUPPRESSION" click="A" />
+		<tag key="zsm_delete_items_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::ZSM::SUPPRIMER" click="A" />
+		<tag key="zsm_delete_cancel_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::ZSM::ANNULER" click="A" />
+		<tag key="pdr_find_sugg_orthoc_c" tag_type="CLIC" s2="3" p="REP::LR::SUGGESTION_ORTHO_PDR" click="A" />
+		<tag key="pdr_find_sugg_geo_c" tag_type="CLIC" s2="3" p="REP::LR::SUGGESTION_ORTHO_PDR" click="A" />
+		<tag key="pdr_find_reform_user_c" tag_type="CLIC" s2="3" p="REP::LR::REFORMULER_QUOIQUI_PDR" click="A" />
+		<tag key="eboutique_c" tag_type="CLIC" s2="3" p="REP::#SUBCHAPTER#::EBOUTIQUE_SE_REFERENCER" click="A" />
+		<tag key="transac_prestation_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::VOIR_PRESTATION" click="A" />
+		<tag key="transac_more_prestation_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::INFO::VOIR_PLUS_PRESTATION" click="A" />
+		<tag key="rdv_transac_prestation_c" tag_type="CLIC" s2="#RECH_TYPE#" p="REP::#SUBCHAPTER#::CONTACT::RDV_TRANSAC_#TRANSAC_TYPE#_#TYPE_FD#" click="A" />
+		<tag key="nes_rdv_c" tag_type="CLIC" s2="2" p="NES::#SUBCHAPTER#::NES_RDV" click="A" />
+		<tag key="search_pro_rdv_c" tag_type="CLIC" s2="7" p="COMPTE::#SUBCHAPTER#::RECHERCHER_PRO_RDV_#TRANSAC_TYPE#" click="A" />
+		<tag key="search_pro_rdv_c" tag_type="CLIC" s2="7" p="COMPTE::#SUBCHAPTER#::RECHERCHER_PRO_RDV_#TRANSAC_TYPE#" click="A" />
+		<tag key="geololocation_use_accept" tag_type="CLIC" s2="7" p="REP::GHP::EEZEWORLD::ACCEPTER" click="A" />
+		<tag key="geololocation_use_later" tag_type="CLIC" s2="7" p="REP::GHP::EEZEWORLD::PLUS_TARD" click="A" />
+		<tag key="hours_showorhide_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::HORAIRES_AFFICHERMASQUER" click="A" />
+		<tag key="description_showmore_c" tag_type="CLIC" s2="3" p="REP::FD::INFO::DESCRIPTION_VOIRPLUS" click="A" />
+		<tag key="onboarding_continue_c" tag_type="CLIC" s2="6" p="SOLLICITATION::ONBOARDING::#TYPE_ONBOARDING#::CONTINUER" click="A" />
+		<tag key="onboarding_ignore_c" tag_type="CLIC" s2="6" p="SOLLICITATION::ONBOARDING::#TYPE_ONBOARDING#::IGNORER" click="A" />
+		<tag key="info_geoloc_continue_c" tag_type="CLIC" s2="6" p="SOLLICITATION::GEOLOC::#SUBCHAPTER#::CONTINUER" click="A" />
+		<tag key="info_geoloc_close_c" tag_type="CLIC" s2="6" p="SOLLICITATION::GEOLOC::#SUBCHAPTER#::IGNORER" click="A" />
+		<tag key="info_geoloc_desact_continue_c" tag_type="CLIC" s2="6" p="SOLLICITATION::GEOLOC::INACTIVE::PARAMETRES" click="A" />
+		<tag key="info_geoloc_desact_close_c" tag_type="CLIC" s2="6" p="SOLLICITATION::GEOLOC::INACTIVE::NON_MERCI" click="A" />
+		<tag key="info_notification_continue_c" tag_type="CLIC" s2="6" p="SOLLICITATION::NOTIFICATION::#TYPE_NOTIFICATION#::CONTINUER" click="A" />
+		<tag key="info_notification_close_c" tag_type="CLIC" s2="6" p="SOLLICITATION::NOTIFICATION::#TYPE_NOTIFICATION#::IGNORER" click="A" />
+		<tag key="game_c" tag_type="CLIC" s2="7" p="COMPTE::#CHAPTER#::JEU::#GAME#" click="A" />
+		<tag key="geo_consent_validate_c" tag_type="CLIC" s2="6" p="SOLLICITATION::RGPD::PAGE_XY_#XY_AB_VARIANT#::VALIDER" click="A" />
+		<tag key="geo_consent_accept_c" tag_type="CLIC" s2="6" p="SOLLICITATION::RGPD::PAGE_XY_#XY_AB_VARIANT#::TOUT_ACCEPTER" click="A" />
+		<tag key="geo_consent_refuse_c" tag_type="CLIC" s2="6" p="SOLLICITATION::RGPD::PAGE_XY_#XY_AB_VARIANT#::TOUT_REFUSER" click="A" />
+		<tag key="geo_consent_personalize_c" tag_type="CLIC" s2="6" p="SOLLICITATION::RGPD::PAGE_XY_#XY_AB_VARIANT#::VOIR_PREFERENCES" click="N" />
+		<tag key="geo_consent_hide_c" tag_type="CLIC" s2="6" p="SOLLICITATION::RGPD::PAGE_XY_#XY_AB_VARIANT#::MASQUER_PREFRENCES" click="N" />
+		<tag key="review_form_close_c" tag_type="CLIC" s2="7" p="AVIS::CONTRIB::ETAPE_#ETAPE#::CROIX" click="N" />
+		<tag key="review_personal_data_c" tag_type="CLIC" s2="7" p="AVIS::CONTRIB::ETAPE_#ETAPE#::DONNEES_PERSONNELLES" click="N" />
+		<tag key="review_form_rating_c" tag_type="CLIC" s2="7" p="AVIS::CONTRIB::EVALUER_CRITERE_SECONDAIRE" click="N" />
+		<tag key="review_photo_deposit_c" tag_type="CLIC" s2="7" p="AVIS::CONTRIB::DEPOSER_PHOTO" click="N" />
+		<tag key="review_photo_no_c" tag_type="CLIC" s2="7" p="AVIS::CONTRIB::NON_MERCI" click="N" />
+		<tag key="ask_quote_c" tag_type="CLIC" s2="3" p="REP::#GROUP_PAGE#::CONTACT::TRANSAC_DEMANDER_DEVIS" click="A" />
+		<tag key="float_ask_quote_c" tag_type="CLIC" s2="3" p="REP::#GROUP_PAGE#::CONTACT::TRANSAC_DEMANDER_DEVIS_PICTO" click="A" />
+		<tag key="quote_request_desc_continue_c" tag_type="CLIC" s2="3" p="REP::FD::CONTACT::TRANSAC_VALIDER_DEVIS_DESCRIPTION" click="A" />
+		<tag key="quote_request_contact_continue_c" tag_type="CLIC" s2="3" p="REP::FD::CONTACT::TRANSAC_VALIDER_DEVIS_CONTACT" click="A" />
+		<tag key="quote_request_send_back_c" tag_type="CLIC" s2="3" p="REP::FD::CONTACT::TRANSAC_RENVOYER_DEVIS_ERREUR" click="A" />
+		<tag key="fil_actu_c" tag_type="CLIC" s2="3" p="REP::FD::CONTACT::FIL_ACTU" click="A" />
+	</at>
+ </resStats>
